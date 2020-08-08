@@ -41,7 +41,7 @@
         </header>
 
         <main>
-           <form action="" id="create-class">
+           <form action="/save-classes" id="create-class" method="POST">
                 <fieldset>
                     <legend>Seus dados</legend>
 
@@ -79,8 +79,16 @@
                         <label for="cost">Custo da sua hora/aula
                             <small>(R$)</small>
                         </label>
-                        <input name="cost" type="cost" id="cost" type="number" required>
+                        <input name="cost" id="cost" type="number" required>
                     </div>
+
+                    <div class="radio-block">
+                        <label for="local">Sua aula vai ser</label>
+                        <span><input type="radio" name="local" id="local" value="ead" required>À distância <small>(online)</small></span>
+                        <span><input type="radio" name="local" id="local" value="presential" required>Presencial</span>
+                        <span><input type="radio" name="local" id="local" value="both" required>Preferência do aluno</span>
+                    </div>
+                    
                 </fieldset>
 
                 <fieldset id="schedule-items">
