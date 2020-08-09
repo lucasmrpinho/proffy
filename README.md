@@ -24,7 +24,7 @@ O objetivo do projeto é criar uma plataforma de estudos, onde conseguimos conec
 - - -
 
 ## 💻 Versão Web
-<img src ='.\public\images\proffyweb.gif'/>
+<img src ='.\public\images\proffy_web.gif'/>
 
 
 Feito por [Lucas Pinho](https://github.com/lucasmrpinho) através de [Rocketseat](https://rocketseat.com.br/)🚀.
